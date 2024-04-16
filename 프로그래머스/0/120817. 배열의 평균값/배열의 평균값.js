@@ -1,4 +1,1 @@
-function solution(numbers) {
-    let total = numbers.reduce((arr, cur) => arr + cur) / numbers.length;
-    return total;
-}
+const solution = (numbers) => numbers.reduce((a, b) => a + b) / numbers.length;
